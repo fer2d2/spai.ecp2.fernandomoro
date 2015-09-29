@@ -1,0 +1,13 @@
+language: java
+ 
+branches:
+  only:
+    - master
+    - develop
+    
+notifications:
+  email:
+    recipients:
+      - morohernandez.fernando@gmail.com
+      
+script: mvn verify
