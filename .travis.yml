@@ -1,5 +1,8 @@
 language: java
- 
+
+jdk:
+  - oraclejdk8
+
 branches:
   only:
     - master
@@ -9,5 +12,5 @@ notifications:
   email:
     recipients:
       - morohernandez.fernando@gmail.com
-      
+
 script: mvn verify
