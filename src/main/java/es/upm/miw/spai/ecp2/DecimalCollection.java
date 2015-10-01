@@ -34,5 +34,13 @@ public class DecimalCollection {
         }
         return higher;
     }
+    
+    public double media(){
+    	double allSum = 0;
+        for (double item : this.collection) {
+        	allSum += item;
+        }
+		return (allSum/this.size());
+    }
 
 }

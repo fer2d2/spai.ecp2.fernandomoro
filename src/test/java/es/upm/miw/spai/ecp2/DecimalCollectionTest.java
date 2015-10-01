@@ -58,4 +58,10 @@ public class DecimalCollectionTest {
     public void testHigher() {
         assertEquals(7.80238, dc.higher(), 10e-7);
     }
+    
+    @Test
+    public void testMedia() {
+        assertEquals(3.1988564, dc.media(), 10e-7);
+    }
+    
 }
