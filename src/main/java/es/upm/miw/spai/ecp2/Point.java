@@ -42,6 +42,18 @@ public class Point {
         this.y -= origin.getY();
         this.z -= origin.getZ();
     }
+    
+    public void setX(double nuevoX){
+    	this.x = (int) nuevoX;
+    }
+    
+    public void setY(double nuevoY){
+    	this.y = (int) nuevoY;
+    }
+    
+    public void setZ(double nuevoZ){
+    	this.z = (int) nuevoZ;
+    }
 
     @Override
     public String toString() {
