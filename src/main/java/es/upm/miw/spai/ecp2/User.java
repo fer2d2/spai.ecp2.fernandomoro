@@ -49,4 +49,8 @@ public class User {
     public String fullNameInverseOrderWithInitial() {
         return this.familyName + ", " + this.initials();
     }
+
+    public String nameUppercase() {
+        return (this.name).toUpperCase();
+    }
 }
