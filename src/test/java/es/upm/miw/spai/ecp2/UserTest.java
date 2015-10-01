@@ -52,4 +52,9 @@ public class UserTest {
     public void testfullNameInverseOrderWithInitial() {
         assertEquals(usr.fullNameInverseOrderWithInitial(), "Gomez, D.");
     }
+
+    @Test
+    public void nameUppercase() {
+        assertEquals(usr.nameUppercase(), "DIEGO");
+    }
 }
