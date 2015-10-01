@@ -36,4 +36,9 @@ public class FractionTest {
         fr = new Fraction(3, 0);
         assertEquals(Double.POSITIVE_INFINITY, fr.decimal(), 10e-1);
     }
+    
+    @Test
+    public void testIsPropia() {
+        assertEquals(true, fr.isPropia());
+    }
 }
