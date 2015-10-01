@@ -37,4 +37,16 @@ public class User {
     public String initials() {
         return this.name.substring(0, 1) + ".";
     }
+
+    public String fullNameWithInitial() {
+        return this.initials() + " " + this.familyName;
+    }
+
+    public String fullNameInverseOrder() {
+        return this.familyName + ", " + this.name;
+    }
+
+    public String fullNameInverseOrderWithInitial() {
+        return this.familyName + ", " + this.initials();
+    }
 }
