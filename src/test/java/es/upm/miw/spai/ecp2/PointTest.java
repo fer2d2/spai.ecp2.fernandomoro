@@ -35,7 +35,7 @@ public class PointTest {
 
     @Test
     public void testFase() {
-        assertEquals(0.3363, pt.phase(), 10e-5);
+        assertEquals(0.9505, pt.phase(), 10e-5);
     }
 
     @Test

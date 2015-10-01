@@ -34,7 +34,7 @@ public class Point {
     }
 
     public double phase() {
-        return Math.atan((double) this.y / this.x / this.z);
+    	return Math.atan((double) this.y / this.x);
     }
 
     public void translateOrigin(Point origin) {
