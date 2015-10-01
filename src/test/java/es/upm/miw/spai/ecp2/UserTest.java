@@ -37,4 +37,19 @@ public class UserTest {
     public void testInitials() {
         assertEquals(usr.initials(), "D.");
     }
+
+    @Test
+    public void fullNameWithInitial() {
+        assertEquals(usr.fullNameWithInitial(), "D. Gomez");
+    }
+
+    @Test
+    public void testfullNameInverseOrder() {
+        assertEquals(usr.fullNameInverseOrder(), "Gomez, Diego");
+    }
+
+    @Test
+    public void testfullNameInverseOrderWithInitial() {
+        assertEquals(usr.fullNameInverseOrderWithInitial(), "Gomez, D.");
+    }
 }
