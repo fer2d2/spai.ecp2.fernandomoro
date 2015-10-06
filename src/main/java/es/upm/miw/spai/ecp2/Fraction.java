@@ -58,7 +58,7 @@ public class Fraction {
     }
 
     public boolean isEquivalente(Fraction candidate) {
-        return ((candidate.numerator == this.numerator) && (candidate.denominator == this.denominator));
+		return ((candidate.numerator * this.denominator) == (candidate.denominator * this.numerator));
     }
 
     public boolean isMayor(Fraction candidate) {
