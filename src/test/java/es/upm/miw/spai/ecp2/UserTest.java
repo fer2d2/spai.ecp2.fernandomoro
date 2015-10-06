@@ -39,7 +39,7 @@ public class UserTest {
     }
 
     @Test
-    public void fullNameWithInitial() {
+    public void testFullNameWithInitial() {
         assertEquals(usr.fullNameWithInitial(), "D. Gomez");
     }
 
@@ -54,7 +54,7 @@ public class UserTest {
     }
 
     @Test
-    public void nameUppercase() {
+    public void testNameUppercase() {
         assertEquals(usr.nameUppercase(), "DIEGO");
     }
 }
